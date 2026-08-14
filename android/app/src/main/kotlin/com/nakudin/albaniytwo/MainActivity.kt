@@ -18,7 +18,7 @@ class MainActivity : AudioServiceActivity() {
 
         MobileAds.setRequestConfiguration(
             RequestConfiguration.Builder()
-                .setTestDeviceIds(listOf("C2ADA274264F69C5F3937FD6E3F19F22"))
+                .setTestDeviceIds(listOf())
                 .build()
         )
 
