@@ -9,6 +9,7 @@ import '../theme/neumorphic.dart';
 import '../widgets/lesson_card.dart';
 import '../widgets/mini_player.dart';
 import 'player_screen.dart';
+import 'about_scholar_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -88,6 +89,19 @@ class _HomeScreenState extends State<HomeScreen> {
                       ],
                     ),
                   ),
+                  NeumorphicCircleButton(
+                    icon: Icons.info_outline_rounded,
+                    size: 48,
+                    iconSize: 22,
+                    onTap: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (_) => const AboutScholarScreen(),
+                        ),
+                      );
+                    },
+                  ),
+                  const SizedBox(width: 12),
                   ClipOval(
                     child: Image.asset(
                       'assets/images/scholar_albaniy.png',
