@@ -199,27 +199,4 @@ final List<Lesson> sampleLessons = [
     scholarPhotoPath: 'assets/images/scholar_albaniy.png',
   ),
 
-  // ─── Wajabcin bin Al-Qur'ani da Sunnah ────────────────────
-  Lesson(
-    id: 'wajabcin_1',
-    title: 'Wajabcin bin Al-Qur\'ani da Sunnah - Part 1',
-    scholarName: 'Shaikh Albaniy Zaria',
-    description: 'Part one of Wajabcin bin Al-Qur\'ani da Sunnah.',
-    audioAssetPath: 'assets/audio/Wajabcin_bin_Al_Qurani_da_Sunnah_1.ogg',
-    duration: Duration(minutes: 121, seconds: 14),
-    timeOfDay: LessonTime.any,
-    course: 'Wajabcin bin Al-Qur\'ani da Sunnah',
-    scholarPhotoPath: 'assets/images/scholar_albaniy.png',
-  ),
-  Lesson(
-    id: 'wajabcin_2',
-    title: 'Wajabcin bin Al-Qur\'ani da Sunnah - Part 2',
-    scholarName: 'Shaikh Albaniy Zaria',
-    description: 'Part two of Wajabcin bin Al-Qur\'ani da Sunnah.',
-    audioAssetPath: 'assets/audio/Wajabcin_bin_Al_Qurani_da_Sunnah_2.ogg',
-    duration: Duration(minutes: 28, seconds: 13),
-    timeOfDay: LessonTime.any,
-    course: 'Wajabcin bin Al-Qur\'ani da Sunnah',
-    scholarPhotoPath: 'assets/images/scholar_albaniy.png',
-  ),
-];
+  ];
